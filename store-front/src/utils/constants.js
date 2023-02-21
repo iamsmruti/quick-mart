@@ -1,0 +1,5 @@
+export const redShade = "#ef323d"
+export const darkRedShade = "#d22b34"
+export const yellowShade = "#f9af24"
+export const darkYellowShade = "#f79326"
+export const black = "#000000"
