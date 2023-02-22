@@ -1,16 +1,15 @@
 import React from 'react'
 import { Box } from '@mui/material'
 import CarouselComp from '../components/CarouselComp'
-import SideScroll from '../components/SideScroll'
+import ProductPage from './ProductPage/ProductPage'
 
 const HomePage = () => {
   return (
     <Box>
       <CarouselComp />
-      <SideScroll />
-      <SideScroll />
-      <SideScroll />
-      <SideScroll />
+      <Box sx={{zIndex: 100, height: 'auto', mx: {md: 2, xs: 1}, transform: {md: 'translateY(-250px)', xs: 'translateY(-100px)'}}}>
+        <ProductPage />
+      </Box>
     </Box>
   )
 }
