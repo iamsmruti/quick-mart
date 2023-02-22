@@ -1,10 +1,6 @@
 import React from 'react'
-import { Box, Button, Grid, Typography } from '@mui/material'
-import { Container } from '@mui/system'
-
-import { Link } from 'react-router-dom'
+import { Box, Button } from '@mui/material'
 import NavLinks from './NavLinks'
-import CountryLinks from './CountryLinks'
 import BottomFooter from './BottomFooter'
 
 const Footer = () => {
@@ -15,11 +11,7 @@ const Footer = () => {
                     Back to top
                 </Button>
             </Box>
-
             <NavLinks />
-
-            <CountryLinks />
-
             <BottomFooter />
         </Box>
     )
